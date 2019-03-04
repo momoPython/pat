@@ -1,11 +1,6 @@
 #include <iostream>
 #include<vector>
-#include<algorithm>
-#include<string>
-#include<cmath>
 using namespace std;
-
-
 int main() {
 	int n,m;
 	cin>>n>>m;

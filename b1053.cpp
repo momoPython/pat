@@ -1,8 +1,4 @@
 #include <iostream>
-#include<vector>
-#include<algorithm>
-#include<string>
-#include<cmath>
 using namespace std;
 
 int main() {
@@ -22,7 +18,6 @@ int main() {
 		if(count*2>k&&k>d) y++;
 		if(count*2>k&&k<=d) x++;
 	}
-//	cout<<x*100/n;
 	printf("%.1f%% %.1f%%",(double)x*100/n,(double)y*100/n);
 	return 0;
 }
